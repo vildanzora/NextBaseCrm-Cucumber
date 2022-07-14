@@ -1,6 +1,6 @@
 Feature: User should be able to send message.
 
-  @done
+  @smoke
   Scenario: Send Message
     Given User on the Next Base CRM Dashboard page
     When User should be able to click MESSAGE tab
