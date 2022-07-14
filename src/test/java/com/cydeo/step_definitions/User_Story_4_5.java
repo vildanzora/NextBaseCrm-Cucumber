@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class User_Story_4 extends Base {
+public class User_Story_4_5 extends Base {
     @Override
     public void setUp() {
         super.setUp();
