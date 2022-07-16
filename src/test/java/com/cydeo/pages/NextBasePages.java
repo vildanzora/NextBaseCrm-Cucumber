@@ -94,13 +94,13 @@ public class NextBasePages {
     @FindBy(xpath = "(//span[@class='bx-vote-block-inp-substitute'])[2]")
     public WebElement vote2;
 
-    @FindBy(xpath = "//*[@id=\"vote-nSLjLH193\"]/form/div[2]/button[2]")
+    @FindBy(xpath = "//button[@data-bx-vote-button='actVoting']")
     public WebElement voteBtn;
 
-    @FindBy(xpath = "//*[@id=\"vote-nSLjLH193\"]/form/div[2]/button[1]")
-    public  WebElement canVote;
+    @FindBy(xpath = "//button[@data-bx-vote-button='showVoteForm']")
+    public  WebElement voteAgain;
 
-    @FindBy(xpath = "//*[@id=\"vote-nSLjLH193\"]/form/div[2]/span/button[1]")
+    @FindBy(xpath = "//button[.='Stop']")
     public  WebElement stopVote;
 
 

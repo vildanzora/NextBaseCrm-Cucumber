@@ -6,11 +6,9 @@ import com.cydeo.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class User_Story_4 extends Base {
+public class User_Story_4_5 extends Base {
     @Override
     public void setUp() {
         super.setUp();
@@ -59,7 +57,7 @@ public class User_Story_4 extends Base {
     }
     @When("User can vote agin")
     public void user_can_vote_agin() {
-        element.canVote.click();
+        element.voteAgain.click();
 
     }
     @Then("poll owner should be able to stop a poll")

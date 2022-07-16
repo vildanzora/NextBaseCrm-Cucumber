@@ -1,6 +1,6 @@
 Feature: user should be able to search people, document and more from search box
 
-  @userstory3
+  @regression
   Scenario: user should do search
     Given User on the Next Base CRM Dashboard page
     When User should be able to click search box
