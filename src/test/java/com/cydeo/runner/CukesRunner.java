@@ -15,10 +15,10 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features" ,
         glue = "com/cydeo/step_definitions",
-        publish = true
-       // dryRun = false
+      //  publish = true,
+        dryRun = false,
 //        //true = for get snippets
-        //tags = "@regression"
+        tags = ""
         // it will run all @smoke tags scenarios
 //        //I will determine common tag for all of my future. @Regression and not @student
         //publish = true
